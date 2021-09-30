@@ -14,8 +14,6 @@ for (i = 0; i < btn.length; i++) {
       textBox.type = "text";
       
       textArea.appendChild(textBox);
-    } else if(textArea.style.display == 'block'){
-      textArea.style.display = 'none'
     }else {
       this.lastElementChild.innerHTML = "Follow";
     }
