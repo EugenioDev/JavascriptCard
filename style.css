@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e9e2;
+
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 15px;
+  -webkit-box-shadow: 10px 6px 13px -9px #ddd;
+  -moz-box-shadow: 10px 6px 13px -9px #ddd;
+  -o-box-shadow: 10px 6px 13px -9px #ddd;
+  box-shadow: 10px 6px 13px -9px #ddd;
+}
+.cardContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+}
+.cardContent h4,
+p {
+  margin: 0;
+}
+.cardContent h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.cardContent p {
+  font-weight: 400;
+  margin-top: 10px;
+}
+.cardContent img {
+  box-sizing: border-box;
+  width: 100px;
+  margin-bottom: 15px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20%;
+  -webkit-box-shadow: 10px 6px 13px -9px #000000;
+  -moz-box-shadow: 10px 6px 13px -9px #000000;
+  -o-box-shadow: 10px 6px 13px -9px #000000;
+  box-shadow: 10px 6px 13px -9px #000000;
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 15px;
+  width: 90%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:first-child {
+  background: linear-gradient(#e75750, #de854a);
+  border-radius: 30px;
+  padding: 0 10px;
+  width: 150px;
+}
+.btn:last-child {
+  border-radius: 30px;
+  background: #f8e9e2;
+  width: 150px;
+  padding: 0 10px;
+}
+
+.btn img {
+  width: 20px;
+  margin: 10px 10px;
+}
+
+.textBox {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.messageBox {
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.messageBox {
+  text-indent: 5px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
